@@ -49,11 +49,13 @@ const calculatePhysicalChange = (change) => {
     changeBreakdown.nickels = nickels;
     changeBreakdown.pennies = pennies;
     
-    // console.log(quarters);
-    // console.log(dimes);
-    // console.log(nickels);
-    // console.log(pennies);
-    console.log(changeBreakdown);
+    let totalChange = (quarters * 25 + dimes * 10 + nickels * 5 + pennies) / 100;
+    
+    for (let coin in changeBreakdown) {
+        console.log(`${coin}: ${changeBreakdown[coin]}`);
+    }
+    console.log('Total Change = $',totalChange);
+    
 }
 calculatePhysicalChange(change);
 
