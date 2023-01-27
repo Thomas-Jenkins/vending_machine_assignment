@@ -33,6 +33,12 @@ const calculatePhysicalChange = (change) => {
     changeBreakdown.pennies = pennies;
     changeBreakdown.total = totalChange;
     
+    console.log('Quarters:'.padEnd(9), changeBreakdown.quarters);
+    console.log('Dimes:'.padEnd(10), changeBreakdown.dimes);
+    console.log('Nickels:'.padEnd(10), changeBreakdown.nickels);
+    console.log('Pennies:'.padEnd(10), changeBreakdown.pennies);
+    console.log('Total Change: $', changeBreakdown.total);
+
     return changeBreakdown;
     
 }
