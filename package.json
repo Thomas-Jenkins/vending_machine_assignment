@@ -1,0 +1,22 @@
+{
+  "name": "vending_machine_assignment",
+  "version": "1.0.0",
+  "description": "An assignment from Alchemy to build out a vending machine as a command line application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-Jenkins/vending_machine_assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-Jenkins/vending_machine_assignment/issues"
+  },
+  "homepage": "https://github.com/Thomas-Jenkins/vending_machine_assignment#readme",
+  "devDependencies": {
+    "jest": "^29.4.0"
+  }
+}
